@@ -18,7 +18,7 @@ const Main = () => {
 					<p className="py-4 text-gray-600 max-w-[70%] m-auto">
 						{/* I&apos;m focused on building responsive front-end web applications
 						while <br /> learning back-end technologies */}
-						I&apos;m a passionate introvert who loves building things with code.
+						I&apos;m a passionate introvert who loves building things with code
 					</p>
 					<div className="flex justify-between items-center max-w-[330px] m-auto py-4">
 						<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
