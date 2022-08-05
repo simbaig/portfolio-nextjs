@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsPersonLinesFill } from "react-icons/bs";
@@ -21,15 +22,29 @@ const Main = () => {
 						I&apos;m a passionate introvert who loves building things with code
 					</p>
 					<div className="flex justify-between items-center max-w-[330px] m-auto py-4">
-						<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-							<FaLinkedinIn />
-						</div>
-						<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-							<FaGithub />
-						</div>
-						<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-							<AiOutlineMail />
-						</div>
+						<a
+							href="https://www.linkedin.com/in/wasim-ay/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+								<FaLinkedinIn />
+							</div>
+						</a>
+						<a
+							href="https://github.com/wasim-ay"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+								<FaGithub />
+							</div>
+						</a>
+						<Link href="/#contact">
+							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+								<AiOutlineMail />
+							</div>
+						</Link>
 						<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
 							<BsPersonLinesFill />
 						</div>
