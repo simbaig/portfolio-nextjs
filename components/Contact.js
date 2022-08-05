@@ -3,8 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import contactImg from "../public/assets/contact.jpg";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsPersonLinesFill } from "react-icons/bs";
+import { BsInstagram, BsPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
@@ -38,15 +37,33 @@ const Contact = () => {
 							<div>
 								<p className="uppercase pt-8">Connect With Me</p>
 								<div className="flex items-center justify-between py-4">
-									<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-										<FaLinkedinIn />
-									</div>
-									<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-										<FaGithub />
-									</div>
-									<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-										<AiOutlineMail />
-									</div>
+									<a
+										href="https://www.linkedin.com/in/wasim-ay/"
+										target="_blank"
+										rel="noreferrer"
+									>
+										<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+											<FaLinkedinIn />
+										</div>
+									</a>
+									<a
+										href="https://github.com/wasim-ay"
+										target="_blank"
+										rel="noreferrer"
+									>
+										<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+											<FaGithub />
+										</div>
+									</a>
+									<a
+										href="https://www.instagram.com/wasim.ay/"
+										target="_blank"
+										rel="noreferrer"
+									>
+										<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+											<BsInstagram />
+										</div>
+									</a>
 									<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
 										<BsPersonLinesFill />
 									</div>
@@ -58,7 +75,11 @@ const Contact = () => {
 
 					<div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
 						<div className="p-4">
-							<form>
+							<form
+								action="https://getform.io/f/6c07bc88-5f8a-4485-b9c4-c32ec6721b84"
+								method="POST"
+								encType="multipart/form-data"
+							>
 								<div className="grid grid-cols-2 gap-4 w-full py-2">
 									<div className="flex flex-col">
 										<label className="uppercase text-sm py-2">Name</label>
