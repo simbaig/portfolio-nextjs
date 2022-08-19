@@ -47,7 +47,7 @@ const Contact = () => {
 										</div>
 									</a>
 									<a
-										href="https://github.com/wasim-ay"
+										href="https://github.com/simbaig/"
 										target="_blank"
 										rel="noreferrer"
 									>
