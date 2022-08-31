@@ -37,8 +37,20 @@ const Crypto = () => {
 						DOM&quot; package. This application was built using the Coin Gecko
 						API.
 					</p>
-					<button className="px-8 py-2 mt-4 mr-8">Code</button>
-					<button className="px-8 py-2 mt-4">Demo</button>
+					<a
+						target="_blank"
+						rel="noreferrer"
+						href="https://github.com/simbaig/crypto-react-firebase"
+					>
+						<button className="px-8 py-2 mt-4 mr-8">Code</button>
+					</a>
+					<a
+						target="_blank"
+						rel="noreferrer"
+						href="https://cryptobase-5c326.web.app/"
+					>
+						<button className="px-8 py-2 mt-4">Demo</button>
+					</a>
 				</div>
 				<div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
 					<div className="p-2">
@@ -62,11 +74,11 @@ const Crypto = () => {
 							</p>
 							<p className="text-gray-600 py-2 flex items-center">
 								<RiRadioButtonFill className="pr-1" />
-								Google API
+								Coin Gecko API
 							</p>
 							<p className="text-gray-600 py-2 flex items-center">
 								<RiRadioButtonFill className="pr-1" />
-								Zillow API
+								Routes
 							</p>
 						</div>
 					</div>

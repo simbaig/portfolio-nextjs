@@ -18,7 +18,7 @@ const Twitch = () => {
 				/>
 				<div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
 					<h2 className="py-2">Twitch</h2>
-					<p>React JS / Tailwind / Firebase</p>
+					<p>Next JS / Tailwind / NextAuth</p>
 				</div>
 			</div>
 			<div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -26,16 +26,28 @@ const Twitch = () => {
 					<p>Project</p>
 					<h2>Overview</h2>
 					<p>
-						I built this application in React JS and is hosted on GitHub pages.
-						This app features user authentication with firebase as well as the
-						firestore cloud storage database. This application is pulling movie
-						data from an the IMDB movie API and displaying different categories.
-						It features horizontal sliding and a featured selection. The
-						useContext hook is also being implemented for app-wide state
-						management.
+						This appplication was built using NEXT.JS and is styled with
+						Tailwind CSS. The application is hosted statically using Vercel.
+						This is a mobile responsive recreation of Twitch.tv and features
+						Next/Auth.js for authentication. Users may choose to be
+						authenticated with either a Github account or a Google account. A
+						few features to note with this project are lazy loading images using
+						the Image component, built in routing, and Next/Auth Context.
 					</p>
-					<button className="px-8 py-2 mt-4 mr-8">Code</button>
-					<button className="px-8 py-2 mt-4">Demo</button>
+					<a
+						target="_blank"
+						rel="noreferrer"
+						href="https://github.com/simbaig/twitch-nextjs"
+					>
+						<button className="px-8 py-2 mt-4 mr-8">Code</button>
+					</a>
+					<a
+						target="_blank"
+						rel="noreferrer"
+						href="https://twitch-clone-simbaig.vercel.app/"
+					>
+						<button className="px-8 py-2 mt-4">Demo</button>
+					</a>
 				</div>
 				<div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
 					<div className="p-2">
@@ -43,7 +55,7 @@ const Twitch = () => {
 						<div className="grid grid-cols-3 md:grid-cols-1">
 							<p className="text-gray-600 py-2 flex items-center">
 								<RiRadioButtonFill className="pr-1" />
-								React
+								Next JS
 							</p>
 							<p className="text-gray-600 py-2 flex items-center">
 								<RiRadioButtonFill className="pr-1" />
@@ -55,15 +67,15 @@ const Twitch = () => {
 							</p>
 							<p className="text-gray-600 py-2 flex items-center">
 								<RiRadioButtonFill className="pr-1" />
-								Firebase
+								Next Auth
 							</p>
 							<p className="text-gray-600 py-2 flex items-center">
 								<RiRadioButtonFill className="pr-1" />
-								Google API
+								Github Auth
 							</p>
 							<p className="text-gray-600 py-2 flex items-center">
 								<RiRadioButtonFill className="pr-1" />
-								Zillow API
+								Google Auth
 							</p>
 						</div>
 					</div>
