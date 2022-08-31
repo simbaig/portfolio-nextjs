@@ -124,7 +124,11 @@ const Contact = () => {
 										name="message"
 									></textarea>
 								</div>
-								<button className="w-full p-4 text-gray-100 mt-4">
+								<button
+									data-mdb-ripple="true"
+									data-mdb-ripple-color="light"
+									className="w-full p-4 text-gray-100 mt-4"
+								>
 									Send Message
 								</button>
 							</form>
@@ -134,7 +138,7 @@ const Contact = () => {
 				<div className="flex justify-center py-12">
 					<Link href="/">
 						<div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-							<HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30} />
+							<HiOutlineChevronDoubleUp className="text-[#1E90FF]" size={30} />
 						</div>
 					</Link>
 				</div>
