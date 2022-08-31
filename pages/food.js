@@ -27,10 +27,12 @@ const Property = () => {
 					<h2>Overview</h2>
 					<p>
 						This app was built using React JS and styled completely with
-						Tailwind CSS. It is Mobile first responsive design approach using
+						Tailwind CSS. The application is hosted statically using Github
+						Pages. It&apos;s Mobile first responsive design approach using
 						flexbox and grid layouts. Pulling all of the data and images from
-						the data.js file to simulate an API response. User can filter
-						through data and images using the javascript filter array method.
+						the data.js file to simulate an API response. A few features to note
+						with this project is user can filter through data and images using
+						the javascript filter array method.
 					</p>
 					<a
 						target="_blank"
