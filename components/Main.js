@@ -1,10 +1,10 @@
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
+import Vanta from "./Vanta";
 import { motion } from "framer-motion";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import Vanta from "./Vanta";
 
 const Main = () => {
 	const varients = {
