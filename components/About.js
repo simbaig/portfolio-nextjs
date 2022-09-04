@@ -13,23 +13,27 @@ const About = () => {
 					</p>
 					<h2 className="py-4">Who I Am</h2>
 					<p className="py-2 text-gray-600">
-						/ / I am not your normal developer
+						Hi there!, I’m Wasim, a curious software developer who’s trying to
+						get a bit better every day.
 					</p>
 					<p className="py-2 text-gray-600">
-						I have spent the last 12 years in the fire service working as a
-						professional firefighter/paramedic. I have always had a knack for
-						technology and working with computers. In 2019 I started working
-						with HTML and CSS to make some minor edits on a small business
-						website that I was operating. What I thought was just a few small
-						edits turned into a love for programming.
-					</p>
-					<p className="py-2 text-gray-600">
+						I have always had a knack for technology and working with computers.
 						Fascinated with how intricate programming can be I was quickly drawn
 						to learn more. I started learning javascript and was even more
-						enthused with making websites interactive. I then started
-						freelancing for e-commerce companies on the Shopify platform. I am
-						now spending my time building projects with React JS, Firebase, and
-						learning new technologies.
+						enthused with making websites interactive.
+					</p>
+					<p className="py-2 text-gray-600">
+						I’m very dedicated to learn new things and to truly believe that you
+						should never stop learning. I enjoy creating different things,
+						whether that be websites, application or anything in between.
+					</p>
+					<p className="py-2 text-gray-600">
+						I’m always looking for new opportunities to expand my understanding
+						of web design and development, so you’ll generally find me sipping a
+						delicious cup of coffee with my nose in a good “technical” book or
+						plugged into my laptop drooling over all of the beauty the web has
+						to offer. I hope to join a team of talented individuals I can learn
+						from and build engaging digital experiences with.
 					</p>
 					<Link href="/#projects">
 						<p className="py-2 text-gray-600 underline cursor-pointer">
