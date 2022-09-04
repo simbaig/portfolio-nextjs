@@ -16,7 +16,7 @@ const Navbar = () => {
 
 	useEffect(() => {
 		if (
-			router.asPath === "/property" ||
+			router.asPath === "/food" ||
 			router.asPath === "/crypto" ||
 			router.asPath === "/netflix" ||
 			router.asPath === "/twitch"
