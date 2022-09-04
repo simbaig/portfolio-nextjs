@@ -59,7 +59,7 @@ const Navbar = () => {
 						<Image
 							src={NavLogo}
 							alt="/"
-							height="50"
+							height="125"
 							width="125"
 							className="cursor-pointer"
 						/>
@@ -121,8 +121,8 @@ const Navbar = () => {
 										className="cursor-pointer"
 										src={NavLogo}
 										alt="/"
-										width="87"
-										height="35"
+										width="60"
+										height="50"
 									/>
 								</a>
 							</Link>
@@ -134,7 +134,7 @@ const Navbar = () => {
 							</div>
 						</div>
 						<div className="border-b border-gray-300 my-4">
-							<p className="w-[85%] md:w-[90%] py-4">
+							<p className="w-[85%] md:w-[90%] py-2">
 								Let&apos;s build something Legendary Together
 							</p>
 						</div>
