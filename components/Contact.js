@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import contactImg from "../public/assets/contact.jpg";
+import contactImg from "../public/assets/contact.svg";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsInstagram, BsPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
