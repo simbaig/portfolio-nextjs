@@ -59,13 +59,13 @@ const Navbar = () => {
 						<Image
 							src={NavLogo}
 							alt="/"
-							height="125"
-							width="125"
+							height="80"
+							width="100"
 							className="cursor-pointer"
 						/>
 					</a>
 				</Link>
-				<div>
+				<div className="flex items-center justify-center">
 					<ul style={{ color: `${linkColor}` }} className="hidden md:flex">
 						<Link href="/">
 							<li className="ml-10 text-sm uppercase hover:text-[#1E90FF]">
@@ -93,6 +93,16 @@ const Navbar = () => {
 							</li>
 						</Link>
 					</ul>
+					<Link href="/">
+						<div className="ml-10 hidden md:flex">
+							<button
+								type="button"
+								className="inline-block px-5 py-3 border-2 rounded-md border-[#1E90FF] text-[#1E90FF] font-bold text-sm leading-tight normal-case hover:bg-[#1E90FF] hover:text-[white] focus:outline-none transition duration-150 ease-in-out"
+							>
+								Resume
+							</button>
+						</div>
+					</Link>
 					<div onClick={handleNav} className="md:hidden cursor-pointer">
 						<AiOutlineMenu size={25} />
 					</div>
@@ -134,39 +144,50 @@ const Navbar = () => {
 							</div>
 						</div>
 						<div className="border-b border-gray-300 my-4">
-							<p className="w-[85%] md:w-[90%] py-2">
+							<p className="w-[85%] md:w-[90%] py-3">
 								Let&apos;s build something Legendary Together
 							</p>
 						</div>
 					</div>
-					<div className="py-4 flex flex-col">
+					<div className="py-2 flex flex-col">
 						<ul className="uppercase">
 							<Link href="/">
-								<li onClick={() => setNav(false)} className="py-4 text-sm">
+								<li onClick={() => setNav(false)} className="py-3 text-sm">
 									Home
 								</li>
 							</Link>
 							<Link href="/#about">
-								<li onClick={() => setNav(false)} className="py-4 text-sm">
+								<li onClick={() => setNav(false)} className="py-3 text-sm">
 									About
 								</li>
 							</Link>
 							<Link href="/#skills">
-								<li onClick={() => setNav(false)} className="py-4 text-sm">
+								<li onClick={() => setNav(false)} className="py-3 text-sm">
 									Skills
 								</li>
 							</Link>
 							<Link href="/#projects">
-								<li onClick={() => setNav(false)} className="py-4 text-sm">
+								<li onClick={() => setNav(false)} className="py-3 text-sm">
 									Projects
 								</li>
 							</Link>
 							<Link href="/#contact">
-								<li onClick={() => setNav(false)} className="py-4 text-sm">
+								<li onClick={() => setNav(false)} className="py-3 text-sm">
 									Contact
 								</li>
 							</Link>
 						</ul>
+						<Link href="/">
+							<div className="py-3 flex flex-col">
+								<button
+									type="button"
+									className="inline-block max-w-[50%] px-5 py-3 border-2 rounded-md border-[#1E90FF] text-[#1E90FF] font-bold text-sm leading-tight normal-case hover:bg-[#1E90FF] hover:text-[white] focus:outline-none transition duration-150 ease-in-out"
+								>
+									Resume
+								</button>
+							</div>
+						</Link>
+
 						<div className="pt-40">
 							<p className="uppercase tracking-widest text-[#1E90FF]">
 								Let&apos;s connect
