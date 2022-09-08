@@ -26,13 +26,13 @@ const Twitch = () => {
 					<p>Project</p>
 					<h2>Overview</h2>
 					<p>
-						This appplication was built using NEXT.JS and is styled with
-						Tailwind CSS. The application is hosted statically using Vercel.
-						This is a mobile responsive recreation of Twitch.tv and features
-						Next/Auth.js for authentication. Users may choose to be
-						authenticated with either a Github account or a Google account. A
-						few features to note with this project are lazy loading images using
-						the Image component, built in routing, and Next/Auth Context.
+						This application was built using NEXT.JS and is styled with Tailwind
+						CSS. The application is hosted statically using Vercel. This is a
+						mobile responsive recreation of Twitch.tv and features Next/Auth.js
+						for authentication. Users may choose to be authenticated with either
+						a Github account or a Google account. A few features to note with
+						this project are lazy loading images using the Image component,
+						built in routing, and Next/Auth Context.
 					</p>
 					<a
 						target="_blank"
