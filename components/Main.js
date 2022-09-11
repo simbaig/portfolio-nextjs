@@ -61,9 +61,11 @@ const Main = () => {
 								<AiOutlineMail />
 							</div>
 						</Link>
-						<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-							<BsPersonLinesFill />
-						</div>
+						<a target="_blank" href="/resume.pdf">
+							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+								<BsPersonLinesFill />
+							</div>
+						</a>
 					</div>
 				</motion.div>
 			</div>

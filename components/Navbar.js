@@ -93,16 +93,18 @@ const Navbar = () => {
 							</li>
 						</Link>
 					</ul>
-					<Link href="/">
-						<div className="ml-10 hidden md:flex">
+
+					<div className="ml-10 hidden md:flex">
+						<a target="_blank" href="/resume.pdf">
 							<button
 								type="button"
 								className="inline-block px-5 py-3 border-2 rounded-md border-[#1E90FF] text-[#1E90FF] font-bold text-sm leading-tight normal-case hover:bg-[#1E90FF] hover:text-[white] focus:outline-none transition duration-150 ease-in-out"
 							>
 								Resume
 							</button>
-						</div>
-					</Link>
+						</a>
+					</div>
+
 					<div onClick={handleNav} className="md:hidden cursor-pointer">
 						<AiOutlineMenu size={25} />
 					</div>
@@ -177,34 +179,51 @@ const Navbar = () => {
 								</li>
 							</Link>
 						</ul>
-						<Link href="/">
-							<div className="py-3 flex flex-col">
+
+						<div className="py-3 flex flex-col">
+							<a target="_blank" href="/resume.pdf">
 								<button
 									type="button"
 									className="inline-block max-w-[50%] px-5 py-3 border-2 rounded-md border-[#1E90FF] text-[#1E90FF] font-bold text-sm leading-tight normal-case hover:bg-[#1E90FF] hover:text-[white] focus:outline-none transition duration-150 ease-in-out"
 								>
 									Resume
 								</button>
-							</div>
-						</Link>
+							</a>
+						</div>
 
 						<div className="pt-40">
 							<p className="uppercase tracking-widest text-[#1E90FF]">
 								Let&apos;s connect
 							</p>
 							<div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-								<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-									<FaLinkedinIn />
-								</div>
-								<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-									<FaGithub />
-								</div>
-								<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-									<AiOutlineMail />
-								</div>
-								<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-									<BsFillPersonLinesFill />
-								</div>
+								<a
+									href="https://www.linkedin.com/in/wasim-ay/"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+										<FaLinkedinIn />
+									</div>
+								</a>
+								<a
+									href="https://github.com/simbaig/"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+										<FaGithub />
+									</div>
+								</a>
+								<Link href="/#contact">
+									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+										<AiOutlineMail />
+									</div>
+								</Link>
+								<a target="_blank" href="/resume.pdf">
+									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+										<BsFillPersonLinesFill />
+									</div>
+								</a>
 							</div>
 						</div>
 					</div>
