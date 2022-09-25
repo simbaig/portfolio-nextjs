@@ -29,7 +29,7 @@ const Projects = () => {
 					<ProjectItem
 						title="Moviepedia"
 						backgroundImg={movieImg}
-						projectUrl="/movie"
+						projectUrl="/moviepedia"
 						tech="React JS"
 					/>
 					<ProjectItem
