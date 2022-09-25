@@ -18,7 +18,7 @@ const Navbar = () => {
 		if (
 			router.asPath === "/food" ||
 			router.asPath === "/crypto" ||
-			router.asPath === "/netflix" ||
+			router.asPath === "/movie" ||
 			router.asPath === "/twitch"
 		) {
 			setNavBg("transparent");

@@ -2,7 +2,7 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 import foodImg from "../public/assets/projects/food-app.jpg";
 import cryptoImg from "../public/assets/projects/crypto.jpg";
-import netflixImg from "../public/assets/projects/netflix.jpg";
+import movieImg from "../public/assets/projects/moviepedia.png";
 import twitchImg from "../public/assets/projects/twitch.jpg";
 
 const Projects = () => {
@@ -27,9 +27,9 @@ const Projects = () => {
 						tech="Next JS"
 					/>
 					<ProjectItem
-						title="Netflix App"
-						backgroundImg={netflixImg}
-						projectUrl="/netflix"
+						title="Moviepedia"
+						backgroundImg={movieImg}
+						projectUrl="/movie"
 						tech="React JS"
 					/>
 					<ProjectItem
