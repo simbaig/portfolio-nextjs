@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Vanta from "./Vanta";
 import { motion } from "framer-motion";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsPersonLinesFill } from "react-icons/bs";
@@ -23,9 +22,6 @@ const Main = () => {
 
 	return (
 		<div id="home" className="w-full h-screen text-center">
-			<div className="hidden md:flex">
-				<Vanta />
-			</div>
 			<div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
 				<motion.div initial="hidden" animate="visible" variants={varients}>
 					<p className="uppercase text-sm tracking-widest text-gray-600">
